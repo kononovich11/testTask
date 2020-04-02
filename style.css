@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    background-color: #f4f2e5;
+    font-size: 15px;
+    margin-right: 10px;
+    color:#897d68;
+    border: none;
+}
+
+button img {
+    height: 30px;
+    width: 100px;
+    filter: brightness(50%) sepia(1) grayscale(70%);
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dotted {
+    border-bottom: 1px dotted #897d68;
+}
+
+.container {
+    font-family: 'Exo 2', sans-serif;
+    max-width: 945px;
+    text-align: center;
+    margin: auto;
+}
+
+.main-title {
+    font: bold 25px 'Exo 2';
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.btns-brend {
+    display: flex;
+    justify-content: center;
+    margin-left: 4px;
+}
+
+.card-creamCheese {
+    margin: 6px;
+    width: 300px;
+    height: 400px;
+    text-align: left;
+} 
+
+.name-of-taste {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.name-of-taste span {
+    text-transform: uppercase;
+}
+
+.name-of-taste:hover {
+    color: #4386f4;
+    cursor: pointer;
+}
+
+.mark {
+    width: 70px;
+    height:25px;
+    margin: 10px 0;
+}
+
+.btn-bonfesto {
+    filter: none;
+    background-color: #5ab700;
+}
+
+button:hover {
+    border: 1px solid #7a9023;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 320px) {
+    .btns-brend{
+        width: 320px;
+    }
+
+    button img {
+        width: 70px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    main {
+        justify-content: center;
+    }
+
+    button img {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    main {
+        justify-content: center;
+    }
+}
